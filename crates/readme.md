@@ -1,5 +1,11 @@
-# Crates
+# [Crates](https://crates.io)
 
-> https://crates.io
+> The Rust community’s crate registry
 
-My Profile 👉 https://crates.io/users/UltiRequiem
+## Info
+
+- [My Profile](https://crates.io/users/UltiRequiem)
+
+## Resources
+
+- [Valid Category Slugs](https://crates.io/category_slugs)

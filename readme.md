@@ -1,12 +1,26 @@
 # Meta
 
-Describing the process of how I publish package/modules/libraries to different ecosystems.
+Describing the process of how I publish package/modules/libraries to different
+ecosystems.
 
 [Discuss](https://ultirequiem.com/discord)
 
 ## General
 
 Some things I want to have in common with all my packages.
+
+### Install Instructions
+
+Even if the user (_probably_) already knows, I want them to be able to
+copy-paste the command.
+
+If there isn't a install step, eg. Deno, just jump to the Example Usage section.
+
+While if they are multiple, eg. Node.js, give support just for the more popular
+one.
+
+> Although I was used to give example of the 3 most popular ones, most packages
+> just show one soooo 😔
 
 ### Support
 
