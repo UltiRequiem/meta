@@ -24,7 +24,7 @@ popular one.
 
 If is a CLI tool, always give binary options when possible.
 
-Distribute them by Releases,[Shell Script](https://shellscript.sh) and
+Distribute them by Releases, [Shell Script](https://shellscript.sh) and
 [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/overview).
 
 ### Support
@@ -43,6 +43,20 @@ Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
 
 Don't forget to start the repo ⭐
 ```
+
+### Alternatives
+
+If there is something similar, made by me, eg. Different language, should be listed here.
+
+```markdown
+## Alternatives
+
+I also developed this in [Node.js](https://github.com/UltiRequiem/ranmess),
+[Rust](https://github.com/UltiRequiem/ruquotes),
+and [Python](https://github.com/UltiRequiem/quoteran).
+```
+
+> [Quotable Readme](https://github.com/UltiRequiem/quotable)
 
 ### License
 
