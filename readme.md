@@ -11,14 +11,12 @@ Some things I want to have in common with all my packages.
 
 ### Install Instructions
 
-Even if the user (_probably_) already knows, I want them to be able to
-copy-paste the command.
+Even if the user _probably_ already knows, I want them to be able to copy-paste
+the command.
 
-- If there isn't a install step, eg. Deno, just jump to the Example Usage
-  section.
+- If there isn't a install step, eg. Deno, jump to the Example Usage section.
 
-- While if they are multiple ways, eg. Node.js, give support just for the more
-  popular one.
+- While if they are multiple ways just show the most popular one.
 
 If is a CLI tool, always give binary options when possible.
 
@@ -29,6 +27,15 @@ Distribute it by 👇
 - [Shell Script](https://shellscript.sh)
 
 - [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/overview)
+
+> Example 👉 [ultirequiem/chigo](https://github.com/UltiRequiem/chigo)
+
+### Example Usage
+
+If is a library, a code snippet. While if is a CLI Tool a video/screenshot and
+usage example is cool.
+
+> Example 👉 [ultirequiem/ruquotes](https://github.com/UltiRequiem/ruquotes)
 
 ### Support
 
