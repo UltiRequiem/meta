@@ -28,7 +28,7 @@ Distribute it by 👇
 
 - [Shell Script](https://shellscript.sh)
 
-- [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/overview).
+- [PowerShell Script](https://docs.microsoft.com/en-us/powershell/scripting/overview)
 
 ### Support
 
@@ -71,6 +71,18 @@ Always MIT when possible.
 
 Licensed under the MIT License.
 ```
+
+## Specific
+
+Some notes about each specific ecosystem.
+
+- [Crates](./crates)
+- [Deno](./deno)
+- [Gems](./gems)
+- [NPM](./npm)
+- [Nugets](./nugets)
+- [PYPI](./pypi)
+- [Web](./web)
 
 ## License
 
