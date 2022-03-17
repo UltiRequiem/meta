@@ -1,5 +1,5 @@
-# The Gem hosting service
+# [Ruby Gems](https://rubygems.org)
 
-> https://rubygems.org
+## Resources
 
-My profile 👉 https://rubygems.org/profiles/ultirequiem
+- [My profile](https://rubygems.org/profiles/ultirequiem)

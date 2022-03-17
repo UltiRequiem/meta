@@ -1,5 +1,5 @@
-# Node Package Manager
+# [Node Package Manager](https://www.npmjs.com)
 
-> https://www.npmjs.com
+## Resources
 
-My profile 👉 https://www.npmjs.com/~ultirequiem
+[My profile](https://www.npmjs.com/~ultirequiem)

@@ -1,7 +1,6 @@
 # Meta
 
-Describing the process of how I publish package/modules/libraries to different
-ecosystems.
+Describing the process of how I publish libraries to different ecosystems.
 
 [Discuss](https://ultirequiem.com/discord)
 

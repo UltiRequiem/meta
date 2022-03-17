@@ -2,10 +2,8 @@
 
 > The Rust community’s crate registry
 
-## Info
+## Resources
 
 - [My Profile](https://crates.io/users/UltiRequiem)
-
-## Resources
 
 - [Valid Category Slugs](https://crates.io/category_slugs)
