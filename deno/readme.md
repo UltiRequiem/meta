@@ -25,3 +25,5 @@ Deno is more complex because lot of ways to ship stuff
 - [Nest.land Discussion](https://github.com/nestdotland/nest.land/discussions)
 
 - Tweet about it
+
+If Supports Node.js all in the [npm](../npm/) section works too!
