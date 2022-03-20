@@ -25,15 +25,17 @@ on: [push, pull_request]
 
 jobs:
   build:
-    name: tests (${{ matrix.os }})
+    name: Test (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macOS-latest]
       fail-fast: true
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Setup Deno
-      - uses: actions/checkout@v3
         uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
