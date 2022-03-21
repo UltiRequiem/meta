@@ -3,3 +3,33 @@
 ## Resources
 
 [My profile](https://www.npmjs.com/~ultirequiem)
+
+## Workflows
+
+Create GitHub Page from Readme.
+
+```yaml
+name: Build and Deploy
+
+on: [push]
+
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Install and Build 🔧
+        run: |
+          mkdir output
+          cp readme.md output/
+          echo ${{ github.event.repository.name }}.js.org >> output/CNAME
+          echo theme: jekyll-theme-cayman >> output/_config.yml
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: output
+```
