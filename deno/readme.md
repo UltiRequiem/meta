@@ -1,6 +1,28 @@
-# A modern runtime for JavaScript and TypeScript.
+# Deno
 
-Deno is more complex because lot of ways to ship stuff
+> All from [common](../common) applies here.
+
+Deno is a simple, modern and secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust.
+
+Is cool because 👇
+
+- Has built-in utilities like a dependency inspector/code formatter/linter
+
+- No file, network, or environment access, unless explicitly enabled.
+
+- Supports TypeScript out of the box.
+
+- Ships only a single executable file.
+
+## Musts
+
+- Written in TypeScript
+
+- Named exports
+
+> Even if is only one function
+
+- Code coverage upper than 50%
 
 ## GitHub Workflows
 
@@ -100,6 +122,38 @@ jobs:
           author: GitHub <noreply@github.com>
           delete-branch: true
 ```
+
+### Page from Readme with a `js.org` domain
+
+```yaml
+# cd.yaml
+
+name: Build and Deploy
+
+on: [push]
+
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Install and Build 🔧
+        run: |
+          mkdir output
+          cp readme.md output/
+          echo ${{ github.event.repository.name }}.js.org >> output/CNAME
+          echo theme: jekyll-theme-cayman >> output/_config.yml
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages
+          folder: output
+```
+
+> Change the CNAME part if necessary
 
 ## Publicizing
 
