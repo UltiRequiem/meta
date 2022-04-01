@@ -79,6 +79,8 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ### Authors
 
 ```markdown
+## Authors
+
 [Eliaz Bobadilla (a.k.a UltiRequiem)](https://ultirequiem.com) - Creator and
 Maintainer 💪
 

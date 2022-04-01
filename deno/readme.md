@@ -181,3 +181,10 @@ jobs:
 - Tweet about it
 
 If Supports Node.js all in the [npm](../npm/) section works too!
+
+### GitHub Tags
+
+```
+typescript, javascript, deno, javascript-lib, npm, npm-package, node,
+nodejs, browser, browser-library
+```
