@@ -51,7 +51,7 @@ Licensed under the MIT License.
 License file content 📃
 
 ```markdown
-# MIT License
+MIT License
 
 Copyright (c) 2022 Eliaz Bobadilla <eliaz.bobadilla@gmail.com>
 (https://ultirequiem.com)
