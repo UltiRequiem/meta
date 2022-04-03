@@ -188,3 +188,79 @@ If Supports Node.js all in the [npm](../npm/) section works too!
 typescript, javascript, deno, javascript-lib, npm, npm-package, node,
 nodejs, browser, browser-library
 ```
+
+### Intro
+
+```markdown
+# REPO
+
+[![codecov](https://codecov.io/gh/ultirequiem/REPO/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/REPO)
+[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/REPO/mod.ts)
+
+Description
+
+> Why I did this? If the name is an acronym explain it here.
+```
+
+### Usage
+
+```markdown
+## Usage
+
+### [Deno 🦕](https://deno.land/x/REPO)
+
+``javascript
+import { randomTimeZone } from "https://deno.land/x/REPO/mod.ts";
+
+console.log(`My timezone is ${randomTimeZone()}`);
+``
+
+### [Node.js 🦖](https://www.npmjs.com/package/@ultirequiem/REPO)
+
+`javascript import { timeZones } from "@ultirequiem/REPO"; `
+
+### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
+
+You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
+
+Eg. [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+▶ [SkyPack](https://cdn.skypack.dev/@ultirequiem/REPO) _/_
+[Script Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) ▶
+[JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/REPO).
+
+_The API is the same on all this platforms._
+```
+
+### Documentation
+
+```
+## Documentation
+
+Is hosted on [Deno Doc](https://doc.deno.land/https://deno.land/x/REPO/mod.ts) 🦖
+```
+
+### CLI
+
+```markdown
+## CLI
+
+### Install
+
+- **Deno 🎃**
+
+`deno install https://deno.land/x/REPO/REPO.ts`
+
+- **Node.js 🐼**
+
+`sh npm install -g @ultirequiem/REPO`
+
+### Usage
+
+`REPO --help`
+
+It includes `list`, `random` and a fuzzy search command!
+
+[A binary for multiple platforms is provided too!](https://github.com/UltiRequiem/REPO/releases/latest)
+
+[Video Showcase](https://youtu.be/8dUX5sPlAX4)
+```
