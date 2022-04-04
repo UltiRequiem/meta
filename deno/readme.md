@@ -104,7 +104,7 @@ jobs:
   udd:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@3
+      - uses: actions/checkout@v3
       - uses: denoland/setup-deno@v1
       - name: Update dependencies
         run: >
@@ -113,12 +113,12 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "chore(deps): update deno dependencies"
+          commit-message: "⬆️  Update dependencies"
           title: Update Deno Dependencies
           body: >
-            Automated updates by [deno-udd](https://github.com/hayd/deno-udd)
-            and [create-pull-request](https://github.com/peter-evans/create-pull-request)
-            GitHub action
+            Automated updates by [deno-udd](https://github.com/hayd/deno-udd) and the
+            [create-pull-request](https://github.com/peter-evans/create-pull-request)
+            action.
           branch: update-deno-dependencies
           author: GitHub <noreply@github.com>
           delete-branch: true
@@ -194,8 +194,8 @@ nodejs, browser, browser-library
 ```markdown
 # REPO
 
-[![codecov](https://codecov.io/gh/ultirequiem/REPO/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/REPO)
-[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/REPO/mod.ts)
+[![Code Coverage](https://codecov.io/gh/ultirequiem/REPO/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/REPO)
+[![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/REPO/mod.ts)
 
 Description
 
@@ -207,6 +207,8 @@ Description
 ```markdown
 ## Usage
 
+The API is the same on all this platforms ✔️
+
 ### [Deno 🦕](https://deno.land/x/REPO)
 
 ``javascript
@@ -215,20 +217,21 @@ import { randomTimeZone } from "https://deno.land/x/REPO/mod.ts";
 console.log(`My timezone is ${randomTimeZone()}`);
 ``
 
-### [Node.js 🦖](https://www.npmjs.com/package/@ultirequiem/REPO)
+### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/REPO)
 
-`javascript import { timeZones } from "@ultirequiem/REPO"; `
+``javascript
+import { timeZones } from "@ultirequiem/REPO"; 
+``
 
 ### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
 You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
 
-Eg. [ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-▶ [SkyPack](https://cdn.skypack.dev/@ultirequiem/REPO) _/_
-[Script Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) ▶
-[JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/REPO).
-
-_The API is the same on all this platforms._
+Eg 👉
+[ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) ↔️
+[SkyPack](https://cdn.skypack.dev/@ultirequiem/random-item) 🆚
+[Script Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+↔️ [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/random-item)
 ```
 
 ### Documentation
@@ -236,7 +239,7 @@ _The API is the same on all this platforms._
 ```
 ## Documentation
 
-Is hosted on [Deno Doc](https://doc.deno.land/https://deno.land/x/REPO/mod.ts) 🦖
+Is hosted on [Deno Doc](https://doc.deno.land/https://deno.land/x/REPO/mod.ts) 📄
 ```
 
 ### CLI

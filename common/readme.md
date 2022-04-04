@@ -17,7 +17,7 @@ If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆
 
 Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you
-like my work 🚀
+like my work 🙏
 
 Don't forget to start the repo ⭐
 ```
@@ -33,24 +33,15 @@ Always follow [Semantic Versioning](https://semver.org).
 ```markdown
 ## Versioning
 
-We use [SemVer](http://semver.org) for versioning.
-For the versions available, see the
-[tags](https://github.com/UltiRequiem/REPO/tags).
+We use [Semantic Versioning](http://semver.org). For the versions available, see
+the [tags](https://github.com/UltiRequiem/timezones/tags) 🏷️
 ```
 
 ### License
 
 Always MIT when possible.
 
-```markdown
-## Licence
-
-Licensed under the MIT License.
-```
-
-License file content 📃
-
-```markdown
+```text
 MIT License
 
 Copyright (c) 2022 Eliaz Bobadilla <eliaz.bobadilla@gmail.com>
@@ -81,12 +72,12 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```markdown
 ## Authors
 
-[Eliaz Bobadilla (a.k.a UltiRequiem)](https://ultirequiem.com) - Creator and
+[Eliaz Bobadilla](https://ultirequiem.com) - Creator and
 Maintainer 💪
 
 See also the full list of
 [contributors](https://github.com/UltiRequiem/REPO/contributors)
-who participated in this project.
+who participated in this project ✨
 ```
 
 ### Built with
