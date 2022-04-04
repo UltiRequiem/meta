@@ -41,6 +41,12 @@ the [tags](https://github.com/UltiRequiem/timezones/tags) 🏷️
 
 Always MIT when possible.
 
+```markdown
+## Licence
+
+Licensed under the MIT License 📄
+```
+
 ```text
 MIT License
 
