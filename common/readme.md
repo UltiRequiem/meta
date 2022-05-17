@@ -44,7 +44,7 @@ Always MIT when possible.
 ```markdown
 ## Licence
 
-Licensed under the MIT License 📄
+MIT License 📄
 ```
 
 ```text
