@@ -4,7 +4,7 @@ on: push
 
 jobs:
   lint:
-    name: Run tests, Lint, and check format.
+    name: Check format.
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
