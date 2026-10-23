@@ -108,6 +108,7 @@ You already installed the CLI while installing the library 😆
 
 ```sh
 fibora 10 # [1.0, 1.0, 2.0, 3.0, 5.0, 8.0, 13.0, 21.0, 34.0, 55.0]
+```
 ````
 
 [Video Showcase](https://youtu.be/jlLx-uppbMU) 🎥

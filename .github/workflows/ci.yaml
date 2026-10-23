@@ -1,14 +1,18 @@
 name: CI
 
-on: push
+on:
+  push:
+    branches: [main]
+  pull_request:
 
 jobs:
-  lint:
-    name: Check format.
+  ci:
+    name: CI
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: denoland/setup-deno@v1
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
-          deno-version: v1.x
-      - run: deno fmt --check
+          node-version: "24"
+      - name: Check formatting
+        run: npx --yes prettier@3 --check "**/*.md"
