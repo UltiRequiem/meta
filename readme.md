@@ -15,7 +15,7 @@ Some things I want to have in common with all my packages.
 Even if the user _probably_ already knows, I want them to be able to copy-paste
 the command.
 
-- If there isn't a install step, eg. Deno, jump to the Example Usage section.
+- If there isn't a install step, e.g. a plain script, jump to the Example Usage section.
 
 - While if they are multiple ways just show the most popular one.
 
@@ -43,7 +43,6 @@ usage example is cool.
 Some notes about each specific ecosystem.
 
 - [Crates](./crates)
-- [Deno](./deno)
 - [Gems](./gems)
 - [NPM](./npm)
 - [Nugets](./nugets)
